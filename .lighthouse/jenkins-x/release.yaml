@@ -32,6 +32,9 @@ spec:
           resources: {}
         - name: build-container-build
           resources: {}
+        - image: uses:rawlingsj/jx3-pipeline-catalog/tasks/cosign/cosign.yaml@main
+          name: ""
+          resources: {}
         - name: promote-changelog
           resources: {}
         - name: promote-helm-release
